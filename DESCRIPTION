@@ -1,0 +1,29 @@
+Package: sequencer
+Type: Package
+Title: Sequence Analysis in Machine Learning
+Version: 0.1
+Date: 2016-08-11
+Author: Siyu Sun <sunsiyu.tud@gmail.com>
+Maintainer: Siyu Sun <sunsiyu.tud@gmail.com>
+Description: Make use of sequence analysis in Machine Learning, e.g. Feature Engineering etc.
+Depends:
+  R (>= 3.2.5)
+Imports:
+  stringr (>= 1.0.0),
+  stringdist (>= 0.9.4),
+  data.table (>= 1.9),
+  TraMineR,
+  TraMineRextras,
+  arules,
+  arulesSequences,
+  Matrix,
+  cluster,
+  qualV,
+  ggplot2
+Suggests:
+  testthat,
+  knitr,
+  rmarkdown
+License: MIT
+LazyData: TRUE
+RoxygenNote: 5.0.1
